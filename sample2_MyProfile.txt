@@ -1,0 +1,17 @@
+using System;
+
+namespace sample2_MyProfile
+{
+class sample2_MyProfile
+{
+static void Main(string[] args)
+{
+Console.WriteLine("Name\t\t:\t\tJohn Rey Colorado\n\n");
+Console.WriteLine("Date of Birth\t\t:\tNovember 14\n\n");
+Console.WriteLine("Course\t\t:\t\tBS computer Science\n\n");
+Console.WriteLine("Year\t\t:\t\tII\n\n");
+Console.WriteLine("Section\t\t:\t\tSD2B\n\n");
+Console.ReadKey();
+}
+}
+}

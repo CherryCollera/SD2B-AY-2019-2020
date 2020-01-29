@@ -1,0 +1,18 @@
+using System;
+
+namespace Sample3_InputMyName
+{
+    class Sample3_InputMyName
+    {
+        static void Main(string[] args)
+        {
+            String firstname, lastname;
+            Console.Write("Enter your name (First Name, Last Name): ");
+            firstname = Console.ReadLine();
+            lastname = Console.ReadLine();
+            Console.Write("Hello,\t" + firstname + "\t" + lastname );
+            Console.Write("\nWelcome to OOP Environment");
+            Console.ReadKey();
+        }
+    }
+}
