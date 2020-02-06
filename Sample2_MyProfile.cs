@@ -10,11 +10,11 @@ namespace Sample2_MyProfile
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Name\t\t:\t\tJeremie Lemuel G. Paras\n");
-            Console.WriteLine("Date of Birth\t:\t\tNovember 27, 1999\n");
-            Console.WriteLine("Course\t\t:\t\tBS Computer Science Software Deveopment\n");
-            Console.WriteLine("Year\t\t:\t\tII\n");
-            Console.WriteLine("Section\t\t:\t\t2B");
+            Console.WriteLine("Name\t\t:\tArron John P. Manlapaz \n\n");
+            Console.WriteLine("Date of Bith\t:\tApril 16 \n\n");
+            Console.WriteLine("Course\t\t:\tBS Computer Science - Software Development \n\n");
+            Console.WriteLine("Year\t\t:\tII  \n\n");
+            Console.WriteLine("Section\t\t:\t2A \n\n");
             Console.ReadKey();
         }
     }
