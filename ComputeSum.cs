@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IfElse
+namespace LabActivity2
 {
-    class IfElse
+    class ComputeSum
     {
         static void Main(string[] args)
         {
@@ -15,14 +15,8 @@ namespace IfElse
             num1 = Convert.ToInt32(Console.ReadLine());
             Console.Write("Enter second number: ");
             num2 = Convert.ToInt32(Console.ReadLine());
-
-            if (num1 > num2)
-                Console.WriteLine(num1 + " is greater than " + num2);
-            else if (num1 < num2)
-                Console.WriteLine(num2 + " is greater than " + num1);
-            else
-                Console.WriteLine(num1 + " is equal to " + num2);
-            Console.ReadKey();
+            Console.Write("The sum is = {0}", num1 + num2);
+            Console.ReadLine();
         }
     }
 }
